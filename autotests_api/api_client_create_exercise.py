@@ -45,13 +45,13 @@ create_course_response = courses_client.create_course(create_course_request)
 print('Create course data:', create_course_response)
 
 create_exercise_request = CreateExerciseRequestDict(
-    title='title',
-    courseId='courseId',
-    maxScore=1,
-    minScore=100,
-    orderIndex=9,
-    description='description',
-    estimatedTime='2 weeks',
+    title="Python",
+    courseId=create_course_response['course']['id'],
+    maxScore=100,
+    minScore=10,
+    orderIndex=1,
+    description="Python API course",
+    estimatedTime="2 weeks",
 )
 create_exercise_response = exercises_client.create_exercise(create_exercise_request)
 print('Create exercise data:', create_exercise_request)
