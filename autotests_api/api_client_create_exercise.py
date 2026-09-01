@@ -31,7 +31,7 @@ exercises_client = get_exercises_client(authentication_user)
 create_file_request = CreateFileRequestSchema(
     filename="image.png",
     directory="courses",
-    upload_file="test_data/files/api_image.png"
+    upload_file="../test_data/files/api_image.png"
 )
 create_file_response = files_client.create_file(create_file_request)
 print('Create file data:', create_file_response)
