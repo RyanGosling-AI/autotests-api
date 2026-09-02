@@ -23,7 +23,7 @@ def test_login():
     login_response = authentication_users_client.login_api(login_request)
     login_response_data = LoginResponseSchema.model_validate_json(login_response.text)
 
-    #Проверки
+    # Проверки
     assert_status_code(login_response.status_code, HTTPStatus.OK)
     assert_login_response(login_response_data)
 
