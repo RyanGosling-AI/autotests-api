@@ -17,7 +17,7 @@ def test_create_user(email: str, public_users_client: PublicUsersClient):
     request = CreateUserRequestSchema(email=fake.email(domain=email))
     response = public_users_client.create_user_api(request)
     response_data = CreateUserResponseSchema.model_validate_json(response.text)
-    print(response_data)
+
     assert_status_code(response.status_code, HTTPStatus.OK)
     assert_create_user_response(request, response_data)
 
