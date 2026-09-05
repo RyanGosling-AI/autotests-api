@@ -1,7 +1,8 @@
 from clients.api_client import APIClient
 from httpx import Response
 from clients.private_http_builder import get_private_http_client, AuthenticationUserSchema
-from clients.exercises.exercises_schema import GetExerciseQuerySchema, CreateExerciseRequestSchema, UpdateExerciseRequestSchema, GetExercisesResponseSchema
+from clients.exercises.exercises_schema import GetExerciseQuerySchema, CreateExerciseRequestSchema, \
+    UpdateExerciseRequestSchema, GetExercisesResponseSchema
 
 
 class ExercisesClient(APIClient):
@@ -25,7 +26,7 @@ class ExercisesClient(APIClient):
         :param exercise_id: Идентификатор задания.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.get(f'/api/v1/exercises{exercise_id}')
+        return self.get(f'/api/v1/exercises/{exercise_id}')
 
     def create_exercise_api(self, request: CreateExerciseRequestSchema) -> Response:
         """
