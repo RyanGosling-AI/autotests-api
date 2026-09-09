@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a083dd3f-a090-4296-bec9-6f7fdae3d8fc' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDA3OjA1OjQyLjMzMDkyMyIsInVzZXJfaWQiOiI4N2IwMWJjZi01MTQ2LTRkY2QtOWFiNC03YmNlNTRjMDgzM2QifQ.2A9DVXoOjevRPIH0dSejWTw2wvLhTzX-OIlpFIewO2w' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Current picture but sport dinner road of response.","maxScore":97,"minScore":11,"description":"Question marriage watch when. Everybody field within ask. Someone nice success fine. Cold for bring hit.\nArea my expert all. Food staff nature card it against. According smile political growth store.","estimatedTime":"4 weeks"}'

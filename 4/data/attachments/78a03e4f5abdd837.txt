@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDA3OjA1OjQzLjIzNzc5MCIsInVzZXJfaWQiOiI5MzIyNGM4MC0xMTk4LTQ1YzItODVhYy1kMDhlNjVjYmE4ODgifQ.Z-_J_76mt6mzXH8eHo6ld1ak-ymhny2yjqsjPUmPWVY' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whatever hear cause thousand station fact put fund.","maxScore":88,"minScore":30,"description":"Moment relate you main difference.\nWhom event among common accept really whom play. Thought little government. Lot everybody detail test but.","estimatedTime":"8 weeks","previewFileId":"a6d6d0e3-d11f-41c9-ba42-c8b2e7001fa4","createdByUserId":"93224c80-1198-45c2-85ac-d08e65cba888"}'

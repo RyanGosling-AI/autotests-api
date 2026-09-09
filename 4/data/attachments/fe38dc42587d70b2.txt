@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDA3OjA1OjQ0LjY4OTk3NiIsInVzZXJfaWQiOiJhZjA3Njc1Yy04NjExLTQ5NDUtOTUzMy1kZThhNGI1ZmI2ZDcifQ.176HHhvIH0OrO_27CQZl0Zy4Ioti5XaM1DOrSMJkI1A' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Both window natural cold also crime ability.","courseId":"63718353-dfca-4e3e-accb-78951b2361c5","maxScore":84,"minScore":25,"orderIndex":90,"description":"Rise any game show price.\nPart statement eat something rich space laugh. Individual continue note exactly early.\nAccept focus voice science.","estimatedTime":"5 weeks"}'

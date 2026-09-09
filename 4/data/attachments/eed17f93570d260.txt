@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDA3OjA1OjQ1Ljg3MDk2NSIsInVzZXJfaWQiOiJhYTEyNjcyMC0xMjgxLTQ3NmMtYjE1Mi1jYThhMTc4MjI5OTAifQ.I_eI5Z2_MnDVaYjmtPu-liXaZM5ymE2MuAL-HZ072z8' \
+  -H 'content-length: 305' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lawyer off scientist.","maxScore":86,"minScore":12,"description":"Newspaper behind once seat medical situation base. Environment rule better crime realize.","estimatedTime":"9 weeks","previewFileId":"808a342f-03cd-4b84-83a8-3768154ff0ff","createdByUserId":"aa126720-1281-476c-b152-ca8a17822990"}'

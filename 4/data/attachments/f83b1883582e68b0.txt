@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTION:base.py:17 Check that response status code equals to 200
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/45e7b1ec-6ec8-4bbf-b6c5-8cf5e716cff8
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/45e7b1ec-6ec8-4bbf-b6c5-8cf5e716cff8
+INFO     BASE_ASSERTION:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:46 Assert get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:22 Assert exercise
+INFO     BASE_ASSERTION:base.py:36 Check that 'id' equals to 45e7b1ec-6ec8-4bbf-b6c5-8cf5e716cff8
+INFO     BASE_ASSERTION:base.py:36 Check that 'title' equals to Would instead team ten true.
+INFO     BASE_ASSERTION:base.py:36 Check that 'courseId' equals to 94def1e5-dbf1-422b-85ef-d7a0f27fd7f7
+INFO     BASE_ASSERTION:base.py:36 Check that 'maxScore' equals to 95
+INFO     BASE_ASSERTION:base.py:36 Check that 'minScore' equals to 20
+INFO     BASE_ASSERTION:base.py:36 Check that 'orderIndex' equals to 35
+INFO     BASE_ASSERTION:base.py:36 Check that 'description' equals to Wide data buy protect leg as. Play cost compare woman house. Easy three activity specific peace really.
+INFO     BASE_ASSERTION:base.py:36 Check that 'estimatedTime' equals to 3 weeks
+INFO     SCHEMA_ASSERTION:schema.py:19 Validating JSON schema

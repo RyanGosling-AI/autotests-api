@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDA3OjA1OjQ2Ljk4NzQwMCIsInVzZXJfaWQiOiIxZDZhZWJhZC1mMjdmLTRiNWUtODBkNC1lYzUwZjFhYzQxODYifQ.EeE0MrwEBaVLgh3MXjC0RV1nuuIXUSSrHn0VkPx_HeQ' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stay us drive clearly area agreement pass.","courseId":"c3b3b1cc-a8da-4993-8291-85ecb1cc681e","maxScore":74,"minScore":18,"orderIndex":39,"description":"Agreement represent information word on. Always speak sing write college up ahead. Foreign talk measure anything store land coach.","estimatedTime":"8 weeks"}'

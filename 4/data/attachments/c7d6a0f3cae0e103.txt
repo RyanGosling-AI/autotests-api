@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDA3OjA1OjQ0LjY4OTk3NiIsInVzZXJfaWQiOiJhZjA3Njc1Yy04NjExLTQ5NDUtOTUzMy1kZThhNGI1ZmI2ZDcifQ.176HHhvIH0OrO_27CQZl0Zy4Ioti5XaM1DOrSMJkI1A' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"During anything event term international whether.","maxScore":67,"minScore":6,"description":"Also dinner lot quality reason. Free ago many away. Medical situation something person wrong.\nKeep trial education hit participant return. Lead think more.","estimatedTime":"1 weeks","previewFileId":"0377a796-b483-43ff-8e79-b6910cd38503","createdByUserId":"af07675c-8611-4945-9533-de8a4b5fb6d7"}'

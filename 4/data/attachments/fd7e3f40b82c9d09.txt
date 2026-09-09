@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTION:base.py:17 Check that response status code equals to 200
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises?courseId=c3b3b1cc-a8da-4993-8291-85ecb1cc681e
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=c3b3b1cc-a8da-4993-8291-85ecb1cc681e
+INFO     BASE_ASSERTION:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:128 Assert get exercises response
+INFO     BASE_ASSERTION:base.py:72 Check that length of 'exercises' equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:22 Assert exercise
+INFO     BASE_ASSERTION:base.py:36 Check that 'id' equals to dfeb3597-cc2a-46f4-9832-4de684f35384
+INFO     BASE_ASSERTION:base.py:36 Check that 'title' equals to Stay us drive clearly area agreement pass.
+INFO     BASE_ASSERTION:base.py:36 Check that 'courseId' equals to c3b3b1cc-a8da-4993-8291-85ecb1cc681e
+INFO     BASE_ASSERTION:base.py:36 Check that 'maxScore' equals to 74
+INFO     BASE_ASSERTION:base.py:36 Check that 'minScore' equals to 18
+INFO     BASE_ASSERTION:base.py:36 Check that 'orderIndex' equals to 39
+INFO     BASE_ASSERTION:base.py:36 Check that 'description' equals to Agreement represent information word on. Always speak sing write college up ahead. Foreign talk measure anything store land coach.
+INFO     BASE_ASSERTION:base.py:36 Check that 'estimatedTime' equals to 8 weeks
+INFO     SCHEMA_ASSERTION:schema.py:19 Validating JSON schema

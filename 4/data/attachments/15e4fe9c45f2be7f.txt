@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDA3OjA1OjQyLjMzMDkyMyIsInVzZXJfaWQiOiI4N2IwMWJjZi01MTQ2LTRkY2QtOWFiNC03YmNlNTRjMDgzM2QifQ.2A9DVXoOjevRPIH0dSejWTw2wvLhTzX-OIlpFIewO2w' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Because ten rise mission.","maxScore":82,"minScore":21,"description":"Different value five yet.\nEasy even lawyer blood about.\nWait miss majority remain industry.\nMorning skin fly sign quickly.","estimatedTime":"10 weeks","previewFileId":"acddeb17-ef41-4932-84e1-ac67d76922a8","createdByUserId":"87b01bcf-5146-4dcd-9ab4-7bce54c0833d"}'

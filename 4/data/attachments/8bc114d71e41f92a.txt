@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDA3OjA1OjQzLjgxNzIxNCIsInVzZXJfaWQiOiI3NGJjYjUxMi02Nzg3LTQzYzYtYjIzMi01Yjk2NmQyODIzODIifQ.xePJM-jLhc-f3rL7oOvQ0gedqrorQTU1PUFLRdvFOzY' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Friend modern same strong.","maxScore":90,"minScore":1,"description":"Meeting color large actually. Seat perhaps test whether.\nTheir world food whom. Factor speak trial middle.\nLine side church fire. Evening eat concern exactly region box including.","estimatedTime":"10 weeks","previewFileId":"caa2be8f-1946-41ac-94c0-da41f35c2f18","createdByUserId":"74bcb512-6787-43c6-b232-5b966d282382"}'

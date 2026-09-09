@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDA3OjA1OjQ0Ljk2MzMwMCIsInVzZXJfaWQiOiI3ZDA4MTE2Zi0zOGU1LTQ0NjYtOTYwMy0wYWJkYzVmNWVjMjgifQ.9ys64V3UQzNx8dejOmZmcl_r8AkWcljGnlNQDouEckA' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Meeting throw case different probably reason election.","maxScore":63,"minScore":28,"description":"Road fill dinner wonder card collection city. Including instead degree main police each practice. Role participant goal so pattern wonder.","estimatedTime":"6 weeks","previewFileId":"db8800e0-7a85-4053-91eb-1dd6d8f0549d","createdByUserId":"7d08116f-38e5-4466-9603-0abdc5f5ec28"}'
