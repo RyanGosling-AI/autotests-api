@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDA3OjAyOjAyLjMyODc3MSIsInVzZXJfaWQiOiI3MGMwZmI3ZC0wNzgzLTRjMTItYmZkOC0zM2M1NWI1MmViYjIifQ.vhWMIO9TCflOPJ67aWVlzJb_-KNahaT7qLCA0AJeh1M' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Adult character itself hair else court.","maxScore":73,"minScore":12,"description":"Blue along night bank bank state majority particularly. Owner amount nearly rule fact plan.","estimatedTime":"5 weeks","previewFileId":"c432d8bf-5b5c-42c2-8105-9a9d44ae8fc4","createdByUserId":"70c0fb7d-0783-4c12-bfd8-33c55b52ebb2"}'

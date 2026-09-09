@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDA3OjAyOjA1LjYwMTQwNSIsInVzZXJfaWQiOiIzNGQwNjMyMC0wYzljLTQ0MzctYTgwMC1hZjI4MjZiZGQ4ODgifQ.CfJzDxBYT9zfT3YBdN4fc-RpDhXXxLVorx4yubUuLy8' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"It if recently necessary team performance seek surface.","maxScore":100,"minScore":13,"description":"Relationship newspaper five over late. Stuff suggest which. Wear down boy hard building.\nBecome create sing old executive best. Here today magazine language room modern.","estimatedTime":"1 weeks","previewFileId":"03b3c94a-448b-40a5-a077-81b2d8cb559e","createdByUserId":"34d06320-0c9c-4437-a800-af2826bdd888"}'

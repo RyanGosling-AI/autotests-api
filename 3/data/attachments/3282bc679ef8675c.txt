@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDA3OjAyOjA2LjgzODE1MyIsInVzZXJfaWQiOiJlZmYxNThjYy00MzcxLTRmM2YtYjk0Yi0xN2E3NDg1MmE3MzkifQ.eTsTs1WkENcBrrwJTiInHPbW28AambgaVPzw_LrE0Cs' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ok keep approach cost point themselves manager.","maxScore":91,"minScore":1,"description":"Keep close include lose full past. Suffer main price option.\nCell military arm and game lawyer. Hear either member season north fast sort. Ok free wife executive huge church.","estimatedTime":"5 weeks","previewFileId":"88eb8720-a292-46e4-a19d-0367d05020b7","createdByUserId":"eff158cc-4371-4f3f-b94b-17a74852a739"}'

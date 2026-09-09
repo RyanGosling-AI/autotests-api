@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDA3OjAyOjA1LjAyMTgxMyIsInVzZXJfaWQiOiI2ZGM1NGIzNi03MDIxLTQzYjItOWVmNS0wMjFiMGM4ZDcyNDIifQ._gXSXjkFlBIlpLr28BbwAMaSjQD_pYhy2OdAwkpQ2eE' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mother safe western business close.","maxScore":59,"minScore":9,"description":"And lawyer each rest ask send difficult. International green significant ground when travel. Could which always price happen if recognize.\nSort north probably turn piece mean maybe.","estimatedTime":"5 weeks","previewFileId":"0fae6616-ffee-40ee-868d-3970ae1b1cc7","createdByUserId":"6dc54b36-7021-43b2-9ef5-021b0c8d7242"}'

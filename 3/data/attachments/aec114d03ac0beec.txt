@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDA3OjAyOjA2LjIzNzIzMiIsInVzZXJfaWQiOiI1MzkwYmVlNC1hOWEzLTQ2M2UtYmYwMy0yNjhkMDU1MmU3YTEifQ.vUN_6PI4YvV2VvpqpbKCBvaQJMeV6IkULojCa8nRv6Y' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Run home language after.","maxScore":96,"minScore":14,"description":"Me walk son rock care win evening. Determine good standard. Person meet amount though. Put tell carry I meeting mean name.\nSeason chance candidate time person.","estimatedTime":"8 weeks","previewFileId":"ac670c98-9d10-465e-b590-336d34a8871a","createdByUserId":"5390bee4-a9a3-463e-bf03-268d0552e7a1"}'

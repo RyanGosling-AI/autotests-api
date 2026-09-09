@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/490b1f98-19e8-4a1c-b2c3-79875eb621df' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDA3OjAyOjAyLjMyODc3MSIsInVzZXJfaWQiOiI3MGMwZmI3ZC0wNzgzLTRjMTItYmZkOC0zM2M1NWI1MmViYjIifQ.vhWMIO9TCflOPJ67aWVlzJb_-KNahaT7qLCA0AJeh1M' \
+  -H 'content-length: 291' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Believe decision success until.","maxScore":50,"minScore":16,"description":"Memory eye series during face standard red. Mouth pay group plan issue indeed skin force. Sit response movement.\nNot win although. Spend pull work maintain. Line man Democrat.","estimatedTime":"10 weeks"}'
