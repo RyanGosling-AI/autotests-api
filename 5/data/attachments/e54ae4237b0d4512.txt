@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDA3OjMzOjEyLjMxNzY0MyIsInVzZXJfaWQiOiI3YjJjMGU0MC1mOTE3LTQ5NWMtYWQ3OC02Y2NlMzFlZWVmMTkifQ.6EgrzGf6Je9EYwW2CRXvbmSh5NzvIGPvMKvHvbPGVlk' \
+  -H 'content-length: 434' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yet often both so clearly movement challenge.","maxScore":59,"minScore":9,"description":"Sense role center four leave gun. Sea notice painting process similar. Dinner study four free minute office case.\nWide blood fish catch second whom. Final quality decide but always so necessary.","estimatedTime":"8 weeks","previewFileId":"7843ca45-e490-4051-9df0-0a8d22f086ad","createdByUserId":"7b2c0e40-f917-495c-ad78-6cce31eeef19"}'

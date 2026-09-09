@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDA3OjMzOjEzLjYwNzQ3NSIsInVzZXJfaWQiOiIzY2M1ZTA4ZC1hZmRhLTQwNjktOTIxMC1jOWI0NTQxYmY1MTUifQ.U_iJaZthnSxY6HGblbkGmI8O33JZicqE9ZNSq4P7J8Y' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"View finally paper sign rule order.","maxScore":55,"minScore":18,"description":"Few my character determine. Right focus wind clearly.\nSpend agent office agent. Window cause shoulder piece TV city probably.","estimatedTime":"9 weeks","previewFileId":"86f2bb06-a46e-413d-a267-a7aa466189c6","createdByUserId":"3cc5e08d-afda-4069-9210-c9b4541bf515"}'

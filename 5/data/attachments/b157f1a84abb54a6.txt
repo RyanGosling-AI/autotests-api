@@ -1,0 +1,27 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTION:base.py:17 Check that response status code equals to 200
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/8550cbb8-91f3-4408-bdb8-d57d948ab1da
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/8550cbb8-91f3-4408-bdb8-d57d948ab1da
+INFO     BASE_ASSERTION:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:46 Assert get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:22 Assert exercise
+INFO     BASE_ASSERTION:base.py:36 Check that 'id' equals to 8550cbb8-91f3-4408-bdb8-d57d948ab1da
+INFO     BASE_ASSERTION:base.py:36 Check that 'title' equals to Know our particularly manager.
+INFO     BASE_ASSERTION:base.py:36 Check that 'courseId' equals to 617478ad-08a7-4d04-a118-a587a8125a8c
+INFO     BASE_ASSERTION:base.py:36 Check that 'maxScore' equals to 58
+INFO     BASE_ASSERTION:base.py:36 Check that 'minScore' equals to 27
+INFO     BASE_ASSERTION:base.py:36 Check that 'orderIndex' equals to 9
+INFO     BASE_ASSERTION:base.py:36 Check that 'description' equals to Loss her possible car rule seem per. Rule admit agency.
+Close investment direction daughter last bit job. System sometimes drug.
+Me us community sort move. Write ok mean full time night art.
+INFO     BASE_ASSERTION:base.py:36 Check that 'estimatedTime' equals to 7 weeks
+INFO     SCHEMA_ASSERTION:schema.py:19 Validating JSON schema

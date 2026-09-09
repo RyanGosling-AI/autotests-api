@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDA3OjMzOjEzLjkwMjEyNyIsInVzZXJfaWQiOiJkMGQxOTQzMS00ODliLTRmNzctODNhYy0yYWYwZTM3NTk5YTMifQ.JQu5fo4Y4lC5FScFo6YqQ9wFjyDt4S-cFKR0mFHNTsQ' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nation we entire prepare stage very.","maxScore":66,"minScore":16,"description":"Yourself daughter stay vote. Later happen exist case foreign represent require door. Leader answer fly bad. Result couple find accept television forget long quality.","estimatedTime":"5 weeks","previewFileId":"07319ff1-86cb-4700-8b55-3677d60e2194","createdByUserId":"d0d19431-489b-4f77-83ac-2af0e37599a3"}'

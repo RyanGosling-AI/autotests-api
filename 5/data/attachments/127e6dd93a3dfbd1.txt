@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d447e89f-1ac5-4d9f-bdad-55df7030f31c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDA3OjMzOjA5Ljc4MTI3MCIsInVzZXJfaWQiOiI5MWYwOWM1Yy1mOWEyLTRmNjktYjQ0Ny0yNzVkMjhmMjgwYWIifQ.tNP-w7R9ZCVRRdQfPehQfNz6n9hvnz1hS8czE6kT9WM' \
+  -H 'content-length: 252' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Section possible office PM candidate ground.","maxScore":81,"minScore":2,"description":"As believe majority their boy. Walk dog dream explain late instead want. Property leave analysis course hear mind city matter.","estimatedTime":"4 weeks"}'

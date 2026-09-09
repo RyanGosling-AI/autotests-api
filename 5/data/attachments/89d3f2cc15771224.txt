@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDA3OjMzOjEyLjYxMTgwOSIsInVzZXJfaWQiOiIwMmVjMzllMC0yYmJlLTQ1OWMtYWUwYy1mYmNhMjNjZWQxZGEifQ.PVhBsCZ-AtHZWzM6bvJhTt7B6baqvihdx3J-1Yv8kOo' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"List marriage include explain score.","maxScore":66,"minScore":30,"description":"Mouth cup before let although everything southern.\nAge industry sound social information management. Choose continue husband blood new according.\nFull plant onto fear. Win contain study many at.","estimatedTime":"2 weeks","previewFileId":"925c52ea-2488-4257-80bd-523856df00bf","createdByUserId":"02ec39e0-2bbe-459c-ae0c-fbca23ced1da"}'

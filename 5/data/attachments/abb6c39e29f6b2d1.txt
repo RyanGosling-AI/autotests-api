@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDA3OjMzOjE0Ljk1MTkyNCIsInVzZXJfaWQiOiIwMzA1ODE2NC1mNTkzLTRjZDQtYWMzZi1lMDk2MGIyZGM2MDMifQ.EDeL2svZ40zN2i02okvtSlmLQ5gCOEltzmw4YnP2Osc' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Big idea ahead officer tend.","courseId":"8c615025-ad90-45b3-97da-af80df4ee83d","maxScore":81,"minScore":26,"orderIndex":48,"description":"Break interesting decade million anyone fear station. Speech difference meeting through respond. Everyone effect whole south black above fine.\nSoon lose simple establish important teacher son.","estimatedTime":"8 weeks"}'

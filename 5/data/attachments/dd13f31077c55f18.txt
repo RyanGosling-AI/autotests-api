@@ -1,0 +1,27 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTION:base.py:17 Check that response status code equals to 200
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises?courseId=8c615025-ad90-45b3-97da-af80df4ee83d
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=8c615025-ad90-45b3-97da-af80df4ee83d
+INFO     BASE_ASSERTION:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:128 Assert get exercises response
+INFO     BASE_ASSERTION:base.py:72 Check that length of 'exercises' equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:22 Assert exercise
+INFO     BASE_ASSERTION:base.py:36 Check that 'id' equals to 0804585f-f22c-46ac-9d9a-735064990d09
+INFO     BASE_ASSERTION:base.py:36 Check that 'title' equals to Big idea ahead officer tend.
+INFO     BASE_ASSERTION:base.py:36 Check that 'courseId' equals to 8c615025-ad90-45b3-97da-af80df4ee83d
+INFO     BASE_ASSERTION:base.py:36 Check that 'maxScore' equals to 81
+INFO     BASE_ASSERTION:base.py:36 Check that 'minScore' equals to 26
+INFO     BASE_ASSERTION:base.py:36 Check that 'orderIndex' equals to 48
+INFO     BASE_ASSERTION:base.py:36 Check that 'description' equals to Break interesting decade million anyone fear station. Speech difference meeting through respond. Everyone effect whole south black above fine.
+Soon lose simple establish important teacher son.
+INFO     BASE_ASSERTION:base.py:36 Check that 'estimatedTime' equals to 8 weeks
+INFO     SCHEMA_ASSERTION:schema.py:19 Validating JSON schema

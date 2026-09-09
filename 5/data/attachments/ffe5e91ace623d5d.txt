@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDA3OjMzOjEzLjYwNzQ3NSIsInVzZXJfaWQiOiIzY2M1ZTA4ZC1hZmRhLTQwNjktOTIxMC1jOWI0NTQxYmY1MTUifQ.U_iJaZthnSxY6HGblbkGmI8O33JZicqE9ZNSq4P7J8Y' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Know our particularly manager.","courseId":"617478ad-08a7-4d04-a118-a587a8125a8c","maxScore":58,"minScore":27,"orderIndex":9,"description":"Loss her possible car rule seem per. Rule admit agency.\nClose investment direction daughter last bit job. System sometimes drug.\nMe us community sort move. Write ok mean full time night art.","estimatedTime":"7 weeks"}'

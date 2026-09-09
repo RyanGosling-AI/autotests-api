@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDA3OjMzOjE0Ljk1MTkyNCIsInVzZXJfaWQiOiIwMzA1ODE2NC1mNTkzLTRjZDQtYWMzZi1lMDk2MGIyZGM2MDMifQ.EDeL2svZ40zN2i02okvtSlmLQ5gCOEltzmw4YnP2Osc' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bring office national life.","maxScore":91,"minScore":5,"description":"Rest add cause low. Skill red admit difference the. Available after issue.\nSize interesting doctor blue among. Gas respond guy agree rate we. Explain their group individual.","estimatedTime":"1 weeks","previewFileId":"620a4a6c-2c91-4267-9693-0d4cc96c6165","createdByUserId":"03058164-f593-4cd4-ac3f-e0960b2dc603"}'

@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTION:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:63 Assert create exercise response
+INFO     BASE_ASSERTION:base.py:36 Check that 'title' equals to Floor themselves sport.
+INFO     BASE_ASSERTION:base.py:36 Check that 'courseId' equals to ec5648d6-b427-4c49-898c-b7f0ea0a3fbb
+INFO     BASE_ASSERTION:base.py:36 Check that 'maxScore' equals to 74
+INFO     BASE_ASSERTION:base.py:36 Check that 'minScore' equals to 20
+INFO     BASE_ASSERTION:base.py:36 Check that 'orderIndex' equals to 37
+INFO     BASE_ASSERTION:base.py:36 Check that 'description' equals to Hold tonight process reduce. Design management strategy question my nice society material. Report end low course begin per and production.
+Wait as goal speech south. Recently executive foot.
+INFO     BASE_ASSERTION:base.py:36 Check that 'estimatedTime' equals to 10 weeks
+INFO     SCHEMA_ASSERTION:schema.py:19 Validating JSON schema
