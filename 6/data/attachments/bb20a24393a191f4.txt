@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/1af0da24-6d5c-42ef-a88e-2e5f8f3e6474' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDAzOjU3OjE3LjMwNDk0MCIsInVzZXJfaWQiOiJhZjViYTg0My05NmE2LTQ3MTMtYjUyYS00ZmIzNTAwMDBmNTYifQ.3Q8PnozU9AbnK3-pM1H7UcUd6LfPdbMZOlgm81_uVRY' \
+  -H 'content-length: 248' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Unit be soldier century world popular.","maxScore":89,"minScore":18,"description":"Show new sound piece popular break size senior. Choose through prove assume. Line maintain sound letter. Address per of camera.","estimatedTime":"5 weeks"}'

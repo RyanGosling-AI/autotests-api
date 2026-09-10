@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDAzOjU3OjE5LjE3OTI2MyIsInVzZXJfaWQiOiJkMWRhOTk5Ny1mMTU2LTRiNmItYTNiOC04MGIxN2IxZTEwY2QifQ.Wa_SpOusG2K1tIJaEdKerQ5JFsYdayLGZv6727D98lA' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Certainly difficult thus notice hand.","courseId":"ab66f9a0-84d7-4487-9af8-d62521bdafb3","maxScore":76,"minScore":11,"orderIndex":38,"description":"General alone many. School son about every Congress. Attention pressure military south space debate.\nTo suddenly ten sing. Indicate city if close. Understand want yourself investment above.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDAzOjU3OjIzLjExODYyNiIsInVzZXJfaWQiOiJiNjNhODUwNS01ZDA0LTQ5OWItODI5YS1jOGE3M2Y2NTMxMzQifQ.Xx6-Y0bvmASx4t56Cu79NA08YetUo295AVbhBoMJGus' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Evidence foot have picture.","maxScore":59,"minScore":28,"description":"Design left his agreement. Concern notice shoulder defense six. Admit car region.\nManagement question pass. In show eat develop. Five field grow data southern let.\nResearch build wrong.","estimatedTime":"8 weeks","previewFileId":"c1c9742e-2c66-458c-a716-d919eafafd6b","createdByUserId":"b63a8505-5d04-499b-829a-c8a73f653134"}'

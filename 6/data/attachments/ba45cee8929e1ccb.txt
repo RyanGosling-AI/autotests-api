@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTION:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:63 Assert create exercise response
+INFO     BASE_ASSERTION:base.py:36 Check that 'title' equals to Certainly difficult thus notice hand.
+INFO     BASE_ASSERTION:base.py:36 Check that 'courseId' equals to ab66f9a0-84d7-4487-9af8-d62521bdafb3
+INFO     BASE_ASSERTION:base.py:36 Check that 'maxScore' equals to 76
+INFO     BASE_ASSERTION:base.py:36 Check that 'minScore' equals to 11
+INFO     BASE_ASSERTION:base.py:36 Check that 'orderIndex' equals to 38
+INFO     BASE_ASSERTION:base.py:36 Check that 'description' equals to General alone many. School son about every Congress. Attention pressure military south space debate.
+To suddenly ten sing. Indicate city if close. Understand want yourself investment above.
+INFO     BASE_ASSERTION:base.py:36 Check that 'estimatedTime' equals to 5 weeks
+INFO     SCHEMA_ASSERTION:schema.py:19 Validating JSON schema

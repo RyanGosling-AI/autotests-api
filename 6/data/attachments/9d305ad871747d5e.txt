@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDAzOjU3OjIxLjE0MDQwMiIsInVzZXJfaWQiOiI4ZTNmYzlhNy0yOTAwLTQ1NzEtYmI2OC04YzUyOWM4M2Y5OGIifQ.F3qTzqI8DYdrTyhfN0QV8YD0daJEu8KfDb5FpO2f-WM' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rather entire wife TV even create factor present.","maxScore":87,"minScore":10,"description":"A statement old whom range radio. Magazine since film seem trial. Fly I call either option to long tax.","estimatedTime":"7 weeks","previewFileId":"9b047de2-3eda-46be-b4ea-c07b1cecc0c0","createdByUserId":"8e3fc9a7-2900-4571-bb68-8c529c83f98b"}'

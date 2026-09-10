@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDAzOjU3OjIwLjM3MzE2OSIsInVzZXJfaWQiOiJlODdlZmE4YS03MTBhLTQyNDEtODRmZi1kZGRhN2JkNjI1NmIifQ.aqGnBJVHiqXfFnOjeZB5lmwQfE-uqles0HjHXY953_k' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Full focus traditional address half bar not.","maxScore":98,"minScore":21,"description":"Common live some church opportunity. Agreement staff understand seem career. Executive its state lose notice itself west.","estimatedTime":"10 weeks","previewFileId":"22305679-7b70-46bd-9da7-7dfc08d0be4e","createdByUserId":"e87efa8a-710a-4241-84ff-ddda7bd6256b"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDAzOjU3OjE5LjE3OTI2MyIsInVzZXJfaWQiOiJkMWRhOTk5Ny1mMTU2LTRiNmItYTNiOC04MGIxN2IxZTEwY2QifQ.Wa_SpOusG2K1tIJaEdKerQ5JFsYdayLGZv6727D98lA' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Media medical indicate matter land short piece.","maxScore":62,"minScore":21,"description":"Happy customer travel lawyer garden. Half lay agree population claim carry. Science foreign much step candidate continue.","estimatedTime":"3 weeks","previewFileId":"731d5961-5b87-4490-b4f0-bc8a936a9a89","createdByUserId":"d1da9997-f156-4b6b-a3b8-80b17b1e10cd"}'

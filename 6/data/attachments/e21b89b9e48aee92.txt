@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDAzOjU3OjE5Ljc3NzU1NyIsInVzZXJfaWQiOiIzM2Q3MzlhMC0xMzk3LTQ2Y2EtYmYxYi02OGMwYjkyN2QyYzcifQ.GvimhXi1eo5lLzuU9dKgHmHtU089GP2RMHpWOd-qYE0' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cold police analysis around way weight fund southern.","courseId":"d6eadeca-1ea6-46d8-9b5b-e9bbdc8c76f2","maxScore":67,"minScore":5,"orderIndex":83,"description":"Property over unit yeah. Manager scientist matter notice.\nExperience gas see yard. Second hotel it.\nMission Congress newspaper most bag like leave. Agent player soldier wear painting right bag north.","estimatedTime":"1 weeks"}'

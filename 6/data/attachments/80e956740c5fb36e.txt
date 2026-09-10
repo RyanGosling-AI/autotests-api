@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDAzOjU3OjE3LjMwNDk0MCIsInVzZXJfaWQiOiJhZjViYTg0My05NmE2LTQ3MTMtYjUyYS00ZmIzNTAwMDBmNTYifQ.3Q8PnozU9AbnK3-pM1H7UcUd6LfPdbMZOlgm81_uVRY' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"End create someone man remain.","maxScore":87,"minScore":15,"description":"Dinner live player.\nHave impact itself. Subject western give physical table country because. Spring national name field.","estimatedTime":"9 weeks","previewFileId":"20c795ac-2bb3-4657-91de-6506009dde7f","createdByUserId":"af5ba843-96a6-4713-b52a-4fb350000f56"}'

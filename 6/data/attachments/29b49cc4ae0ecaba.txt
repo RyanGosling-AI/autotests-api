@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDAzOjU3OjE4LjU5NDE1OCIsInVzZXJfaWQiOiIwZjRiZDJjZS0xZTZlLTRjNDAtYmFhMS1kMTcxZmI4NDVjNWYifQ.UB9FGo92cM5OL7HxC2iOPnX5sPvKZbPNvCLvH1XPq-A' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Apply can speak point protect girl page.","maxScore":82,"minScore":12,"description":"Sound heart support together modern customer common. Behavior drop argue happy threat family.\nOff answer above themselves sit total. Sit risk million activity happy.","estimatedTime":"5 weeks","previewFileId":"b88a6aac-6665-4c33-841b-bd2b8c41dd2f","createdByUserId":"0f4bd2ce-1e6e-4c40-baa1-d171fb845c5f"}'
