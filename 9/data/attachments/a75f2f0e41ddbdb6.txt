@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTION:base.py:17 Check that response status code equals to 200
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/6b3fa329-f6fe-4972-b6fe-b2ab6ab4d89f
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/6b3fa329-f6fe-4972-b6fe-b2ab6ab4d89f
+INFO     BASE_ASSERTION:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:46 Assert get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:22 Assert exercise
+INFO     BASE_ASSERTION:base.py:36 Check that 'id' equals to 6b3fa329-f6fe-4972-b6fe-b2ab6ab4d89f
+INFO     BASE_ASSERTION:base.py:36 Check that 'title' equals to Call eye turn guess action.
+INFO     BASE_ASSERTION:base.py:36 Check that 'courseId' equals to 56c124ed-26ef-4cbb-bba4-b51518bd67ad
+INFO     BASE_ASSERTION:base.py:36 Check that 'maxScore' equals to 56
+INFO     BASE_ASSERTION:base.py:36 Check that 'minScore' equals to 18
+INFO     BASE_ASSERTION:base.py:36 Check that 'orderIndex' equals to 15
+INFO     BASE_ASSERTION:base.py:36 Check that 'description' equals to Study husband which relate over meeting. Low protect generation fund action community choice.
+Site public the task grow particular water push. Memory their table.
+INFO     BASE_ASSERTION:base.py:36 Check that 'estimatedTime' equals to 1 weeks
+INFO     SCHEMA_ASSERTION:schema.py:19 Validating JSON schema

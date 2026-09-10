@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDA0OjE3OjA2Ljk4MzQ5MiIsInVzZXJfaWQiOiI4MTRhMTMxZS1kNTJhLTQ1M2UtOTU0Zi03MGNkZjM3OTkwZjEifQ.2EPeaXoJ-DGbreA6ePa9bAG4peBWKMsgim1GxnVw0ak' \
+  -H 'content-length: 445' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Although guess without on building group interesting apply.","maxScore":83,"minScore":27,"description":"Though might dark across clearly cause.\nPass sport sometimes candidate indicate which entire none. Family reveal question political. Little policy right nice former however. Market son site.","estimatedTime":"1 weeks","previewFileId":"d4f9f46e-bb67-4069-8e04-e6b3ef46b82a","createdByUserId":"814a131e-d52a-453e-954f-70cdf37990f1"}'

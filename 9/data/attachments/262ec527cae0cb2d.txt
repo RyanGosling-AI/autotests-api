@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDA0OjE3OjA3LjY0MDA2MSIsInVzZXJfaWQiOiI5MGJhMDRmNy03NzRiLTRkNDYtYjBlYy1lYzEwMzMxMmM2OGMifQ.OJikY_fMGK4hQhL8A_gsdZe7OmMAG87DzgtKFjrv2rY' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Call eye turn guess action.","courseId":"56c124ed-26ef-4cbb-bba4-b51518bd67ad","maxScore":56,"minScore":18,"orderIndex":15,"description":"Study husband which relate over meeting. Low protect generation fund action community choice.\nSite public the task grow particular water push. Memory their table.","estimatedTime":"1 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDA0OjE3OjA3LjY0MDA2MSIsInVzZXJfaWQiOiI5MGJhMDRmNy03NzRiLTRkNDYtYjBlYy1lYzEwMzMxMmM2OGMifQ.OJikY_fMGK4hQhL8A_gsdZe7OmMAG87DzgtKFjrv2rY' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Expert many officer.","maxScore":80,"minScore":18,"description":"Simple weight show.\nMovement left economy. Drive place see start know help city. Easy step operation defense Mrs agent. Friend choose wide reality present.","estimatedTime":"4 weeks","previewFileId":"4a37b40d-d140-4c53-8526-172455d9abad","createdByUserId":"90ba04f7-774b-4d46-b0ec-ec103312c68c"}'

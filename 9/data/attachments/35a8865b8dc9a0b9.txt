@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDA0OjE3OjA4LjA0NDIzOCIsInVzZXJfaWQiOiI2ZjY1Y2Y4OC1mNjgzLTQ5NGQtOGFkOC1lZDcwNzcyYTEyMjAifQ.LtsyCMiUMNFlQldjwsK3xAqQN8q-Izz5tfytSRm60vs' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Candidate course sport number card sign.","courseId":"21968036-dfe5-49c7-9a60-06b47e13c714","maxScore":62,"minScore":4,"orderIndex":97,"description":"Hour home trouble education back skill often official. Brother use first scientist trip exactly physical. Who lead create to huge I road style.","estimatedTime":"8 weeks"}'

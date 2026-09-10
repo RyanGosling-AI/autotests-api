@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDA0OjE3OjA1Ljk3MDcyNyIsInVzZXJfaWQiOiI2YTk1MDk4Ni1lMjcyLTQ4NWItYWE5Yi1hM2E5MjRmNWJjNDUifQ.VwRYtk3BDQsQSbYwgvBKlLRTKWNkJ40egilyvvHuE8g' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Everybody child night blood.","maxScore":69,"minScore":15,"description":"Partner her cell many coach. Sister explain those remain here responsibility war.\nWeek suggest seven popular success firm. Or southern decide quickly Mrs traditional.","estimatedTime":"3 weeks","previewFileId":"20b38d0c-78b6-4005-bba7-babe8cb10c5b","createdByUserId":"6a950986-e272-485b-aa9b-a3a924f5bc45"}'

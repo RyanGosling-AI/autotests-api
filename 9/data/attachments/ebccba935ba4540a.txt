@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDA0OjE3OjA2LjM3NDg5MSIsInVzZXJfaWQiOiJmM2Q5ZTMyYS00NzZmLTRjODctOWI0Zi1jMDRkYzQxMTk3MjAifQ.tOgkpNpi5H9ICfhAtuKg_XhZYVA_j_47D55fi9bNZV0' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Floor like although next southern address hard.","maxScore":75,"minScore":28,"description":"Hard standard big skill. Section continue there conference reveal those. Situation bank actually go house. College various challenge husband others.","estimatedTime":"4 weeks","previewFileId":"03654c98-09ab-45a9-b426-93939d4592a4","createdByUserId":"f3d9e32a-476f-4c87-9b4f-c04dc4119720"}'

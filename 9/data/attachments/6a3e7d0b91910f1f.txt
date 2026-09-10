@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDA0OjE3OjA4LjQ5Mjk5MCIsInVzZXJfaWQiOiJlYWIzNTQ1OS00NGVjLTQ3ODUtYjcwNS03OWM3Mjg2ZTBjNTgifQ.GsqpXXL08CLpFFFyn0QiSpSjD6XzW0tG-hESizUb9sk' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Simple game have certainly general offer.","maxScore":55,"minScore":13,"description":"General more difference state want fear. Front they serve.\nPull several fill morning across. Order another yet table wind answer.","estimatedTime":"5 weeks","previewFileId":"914a4777-322f-4a5b-b802-f1b294bcfee2","createdByUserId":"eab35459-44ec-4785-b705-79c7286e0c58"}'

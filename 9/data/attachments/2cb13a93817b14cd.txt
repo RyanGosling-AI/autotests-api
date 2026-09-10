@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDA0OjE3OjA1LjM1MTE2MyIsInVzZXJfaWQiOiJlYjQ3OTFhNi1kZGY1LTQ5ZTMtODgyYS1iNGRkZWFlYzE4N2IifQ.3NMLn4H_1_tJXMIujAYdEC786dfmiA7JqWyzinzBrwU' \
+  -H 'content-length: 285' \
+  -H 'content-type: application/json' \
+  -d '{"title":"What Mrs course career poor college.","maxScore":61,"minScore":18,"description":"Miss song court anyone. Under choice hand vote cause.","estimatedTime":"10 weeks","previewFileId":"5597d50a-9889-4d9f-83a2-abe8656d5776","createdByUserId":"eb4791a6-ddf5-49e3-882a-b4ddeaec187b"}'
