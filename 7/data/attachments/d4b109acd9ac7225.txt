@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDA0OjAxOjM5Ljk3NTg3NSIsInVzZXJfaWQiOiJkMTA2ODZmNy0zMTg1LTRlNGUtODlmMi0xY2E4MzQzY2Y0NjQifQ.SBfM3BSt0w4uBLAnH0cesrkW73l-b6Kn_Jm-o20H5jU' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Determine trip spring.","maxScore":68,"minScore":23,"description":"Green southern answer recently sometimes. End office past push attorney listen. Travel throughout we firm tell according smile.","estimatedTime":"5 weeks","previewFileId":"92b1c4bb-0133-452b-a9ea-ce4a84386792","createdByUserId":"d10686f7-3185-4e4e-89f2-1ca8343cf464"}'

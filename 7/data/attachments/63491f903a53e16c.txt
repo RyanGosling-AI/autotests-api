@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDA0OjAxOjM4Ljk1OTg3NSIsInVzZXJfaWQiOiJhYzE5OTg2NS0zNjU4LTRmY2YtODc2Ni03ZjllNDk5MzFkYWEifQ.umCZBN5M8nA8pbF3GfVnqqJMJEw-b589YIeP25XhjBQ' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pick could cultural career term.","maxScore":80,"minScore":14,"description":"Enough wonder conference. Just general tell pass sell film. Indeed laugh have and season.\nMachine outside west message staff. Than possible weight story long.","estimatedTime":"6 weeks","previewFileId":"c35ddbe3-46e5-40ab-9a2c-e2a38b500b5c","createdByUserId":"ac199865-3658-4fcf-8766-7f9e49931daa"}'

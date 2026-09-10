@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDA0OjAxOjQxLjMwMDk1NSIsInVzZXJfaWQiOiJmNjZjNTA1MC1hMzU2LTQ2ZDEtYTEyMy03MjRkZjBkODQyMmUifQ.ADiDD-BzXQC6u4x-P8oEJryFw7i1AzV9Mldtuut72Jw' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Myself main much animal upon.","maxScore":100,"minScore":2,"description":"Try huge view both lose. Something he safe history.\nTest Mrs authority want group western west chance. Number easy my too. Soldier budget imagine yes.","estimatedTime":"10 weeks","previewFileId":"e6c355d8-a6d6-4e88-a297-cb6519bc43b5","createdByUserId":"f66c5050-a356-46d1-a123-724df0d8422e"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDA0OjAxOjM4LjY1MDU0MyIsInVzZXJfaWQiOiJlOGM2YzFhOS1jOTc5LTRlNzAtYTBiNy04YWFjYjJhOTZlZDcifQ.UY88RwjdoN_a-di8sLeqb3hUo3UbMelSqde4ePPSGJ8' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Home with time recent leave.","maxScore":94,"minScore":27,"description":"Which require per color. Find with kid this against court capital. Source because believe save move weight.\nGrowth sea month international edge need.\nDirector many care agency.","estimatedTime":"6 weeks","previewFileId":"d3dc147d-72c2-478b-959e-91259b0e397b","createdByUserId":"e8c6c1a9-c979-4e70-a0b7-8aacb2a96ed7"}'

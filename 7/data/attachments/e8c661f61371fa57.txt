@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDA0OjAxOjM2LjY5ODk0MSIsInVzZXJfaWQiOiJmNzQwMDc2NC03ZWFkLTRhMDMtOGM2My0zY2MwNWMzNDY0NTIifQ.yTJzhBxK5PAJlBjI6Qj0T8RHxeUp6xw3zg2on-J2s6o' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Woman paper wait huge produce southern space.","maxScore":54,"minScore":26,"description":"Trial loss ball church total four husband. Other point particular toward open. Step thousand responsibility film race.\nFilm build threat. By board nor whose behind theory agreement.","estimatedTime":"9 weeks","previewFileId":"66f81995-32c0-4156-9109-8e0ad3086401","createdByUserId":"f7400764-7ead-4a03-8c63-3cc05c346452"}'

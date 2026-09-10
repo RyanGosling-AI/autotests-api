@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDA0OjAxOjQxLjYwODU3NCIsInVzZXJfaWQiOiI5NmEyNTFiZi1kMTFjLTQyNzQtYjI4Ni0xNWMyNmE0NmI2NWUifQ.yeVgQjBUbl4T5LDF8kNMGoLepW6w_zx3B3yrDYREOkA' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Him all true address always practice.","maxScore":76,"minScore":4,"description":"Contain country without run. Theory surface against.\nNo important black among cost. Old far although foreign scientist nearly. Resource in class want dark wife view.","estimatedTime":"4 weeks","previewFileId":"c2665ad8-516d-44e7-ad29-e2c061de6fa0","createdByUserId":"96a251bf-d11c-4274-b286-15c26a46b65e"}'

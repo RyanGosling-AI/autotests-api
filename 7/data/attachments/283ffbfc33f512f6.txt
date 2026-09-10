@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTION:base.py:17 Check that response status code equals to 200
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/f2fb87f7-104f-4f43-95de-58c626d2aade
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/f2fb87f7-104f-4f43-95de-58c626d2aade
+INFO     BASE_ASSERTION:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:46 Assert get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:22 Assert exercise
+INFO     BASE_ASSERTION:base.py:36 Check that 'id' equals to f2fb87f7-104f-4f43-95de-58c626d2aade
+INFO     BASE_ASSERTION:base.py:36 Check that 'title' equals to Need remember produce control quality real whatever.
+INFO     BASE_ASSERTION:base.py:36 Check that 'courseId' equals to 353e3aca-fd16-4e4e-81bf-4d307600b635
+INFO     BASE_ASSERTION:base.py:36 Check that 'maxScore' equals to 60
+INFO     BASE_ASSERTION:base.py:36 Check that 'minScore' equals to 3
+INFO     BASE_ASSERTION:base.py:36 Check that 'orderIndex' equals to 20
+INFO     BASE_ASSERTION:base.py:36 Check that 'description' equals to Discuss yourself skill already film natural. Total view election trip heavy trouble heavy.
+Fight debate garden respond create prepare. Seem attack work whether source themselves.
+INFO     BASE_ASSERTION:base.py:36 Check that 'estimatedTime' equals to 9 weeks
+INFO     SCHEMA_ASSERTION:schema.py:19 Validating JSON schema

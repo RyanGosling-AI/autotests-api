@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDA0OjAxOjQwLjI4MjkyNiIsInVzZXJfaWQiOiJhMGEyNjU1Yi03MzUzLTQ1MWEtODVmOS00N2FiNGRjZjAwNWMifQ.HpakiJnU9nr4JNiUMjUpRM4uGEDVEg74EXgLXkiDmks' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Need remember produce control quality real whatever.","courseId":"353e3aca-fd16-4e4e-81bf-4d307600b635","maxScore":60,"minScore":3,"orderIndex":20,"description":"Discuss yourself skill already film natural. Total view election trip heavy trouble heavy.\nFight debate garden respond create prepare. Seem attack work whether source themselves.","estimatedTime":"9 weeks"}'

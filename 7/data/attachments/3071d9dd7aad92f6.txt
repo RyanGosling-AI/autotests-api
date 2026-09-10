@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDA0OjAxOjQwLjI4MjkyNiIsInVzZXJfaWQiOiJhMGEyNjU1Yi03MzUzLTQ1MWEtODVmOS00N2FiNGRjZjAwNWMifQ.HpakiJnU9nr4JNiUMjUpRM4uGEDVEg74EXgLXkiDmks' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Similar interesting foot generation win fill but management.","maxScore":68,"minScore":1,"description":"Own collection necessary respond result sell tonight around. Music hotel cultural key per such. Seat reduce black area study.","estimatedTime":"5 weeks","previewFileId":"f29dffe1-9ebf-412e-a075-ca5b14ac62d4","createdByUserId":"a0a2655b-7353-451a-85f9-47ab4dcf005c"}'

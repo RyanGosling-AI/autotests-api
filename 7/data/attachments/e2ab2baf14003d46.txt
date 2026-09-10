@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d3b909b7-5766-4e9f-adb5-8bb4b879816e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDA0OjAxOjM2LjY5ODk0MSIsInVzZXJfaWQiOiJmNzQwMDc2NC03ZWFkLTRhMDMtOGM2My0zY2MwNWMzNDY0NTIifQ.yTJzhBxK5PAJlBjI6Qj0T8RHxeUp6xw3zg2on-J2s6o' \
+  -H 'content-length: 303' \
+  -H 'content-type: application/json' \
+  -d '{"title":"White close nor town break leader want.","maxScore":88,"minScore":23,"description":"Research decision opportunity often decade. Direction you reduce poor general author worry trouble.\nWhat recent kind writer well. Husband cut end house us. Loss forward how entire.","estimatedTime":"4 weeks"}'
