@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDA0OjAyOjAwLjg1MDgyMiIsInVzZXJfaWQiOiIxZTAxZWU2OC1lOWFmLTRjZTYtOTdkZC1kNzE3ODI4MzM4N2IifQ.8E54FTHTEwHnEzo1m3mqAtXFYitU89mSCaRDgVVF_Xo' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Happen space white become cell institution health.","maxScore":62,"minScore":26,"description":"Across partner pretty study act. Bill at number subject foreign majority sport involve.\nOur scientist sound candidate their. Evening science stuff magazine draw attack explain.","estimatedTime":"5 weeks","previewFileId":"85aaba33-feeb-4321-bc9c-2d64001e26c9","createdByUserId":"1e01ee68-e9af-4ce6-97dd-d7178283387b"}'

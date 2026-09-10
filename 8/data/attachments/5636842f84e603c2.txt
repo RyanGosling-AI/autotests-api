@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDA0OjAyOjAzLjc1Mzk5NCIsInVzZXJfaWQiOiI4ZWVhMDZhOS0xZDY1LTRjNmQtYmUwMi05MzE2MDE2YmQ2NzMifQ.j8T3gprQ2WaPpE-VPfVG2HK9RnAjtlTE4I0OM1UKXVU' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Two event hand story.","courseId":"18615f5b-b47f-42a0-8c8a-17036d4d095b","maxScore":76,"minScore":25,"orderIndex":3,"description":"Study activity win special work according. Land research save south own half improve. Enough number whether sit dark family member along. Consumer medical soon line generation record.","estimatedTime":"4 weeks"}'

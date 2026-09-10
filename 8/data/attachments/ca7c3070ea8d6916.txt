@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make PATCH request to http://localhost:8000/api/v1/courses/9d587c69-3ed5-4bd6-92ce-f00bc87bb085
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses/9d587c69-3ed5-4bd6-92ce-f00bc87bb085
+INFO     BASE_ASSERTION:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:24 Check update course response
+INFO     BASE_ASSERTION:base.py:36 Check that 'title' equals to Reach choose yet eye ground race.
+INFO     BASE_ASSERTION:base.py:36 Check that 'max_score' equals to 96
+INFO     BASE_ASSERTION:base.py:36 Check that 'min_score' equals to 3
+INFO     BASE_ASSERTION:base.py:36 Check that 'description' equals to My management money yet television under owner organization. Seat window certain. Still improve decide arrive decide himself party fish. Serve recent similar budget environmental kid area.
+INFO     BASE_ASSERTION:base.py:36 Check that 'estimated_time' equals to 10 weeks
+INFO     SCHEMA_ASSERTION:schema.py:19 Validating JSON schema

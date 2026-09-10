@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDA0OjAyOjAyLjE0ODQ3MyIsInVzZXJfaWQiOiI4NWRhMWYxZC1lOGVjLTQzNTQtYjVhZC0xOGFiMjJlODk4NTkifQ.LS-XB4z0a3YXlQiMre3Ep8P6EsONSB3GxWyei5UdzO8' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Easy young area believe.","maxScore":59,"minScore":9,"description":"Myself bill order suggest. Hope beat particular public thousand fly.\nIndustry role country garden point including officer. Positive middle this no focus. Discuss account bed recent parent.","estimatedTime":"6 weeks","previewFileId":"fb54a9d4-0745-4800-ae56-b36b53565c27","createdByUserId":"85da1f1d-e8ec-4354-b5ad-18ab22e89859"}'

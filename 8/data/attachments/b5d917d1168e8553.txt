@@ -1,0 +1,27 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTION:base.py:17 Check that response status code equals to 200
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises?courseId=518b0dab-f961-497f-bbbf-a41a4aa54bef
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=518b0dab-f961-497f-bbbf-a41a4aa54bef
+INFO     BASE_ASSERTION:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:128 Assert get exercises response
+INFO     BASE_ASSERTION:base.py:72 Check that length of 'exercises' equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:22 Assert exercise
+INFO     BASE_ASSERTION:base.py:36 Check that 'id' equals to c252df01-830e-4b25-98dc-486fedbebc76
+INFO     BASE_ASSERTION:base.py:36 Check that 'title' equals to Specific attack can professional see.
+INFO     BASE_ASSERTION:base.py:36 Check that 'courseId' equals to 518b0dab-f961-497f-bbbf-a41a4aa54bef
+INFO     BASE_ASSERTION:base.py:36 Check that 'maxScore' equals to 50
+INFO     BASE_ASSERTION:base.py:36 Check that 'minScore' equals to 20
+INFO     BASE_ASSERTION:base.py:36 Check that 'orderIndex' equals to 19
+INFO     BASE_ASSERTION:base.py:36 Check that 'description' equals to Born society listen race fall some above. Rock card behind citizen.
+Include person again. Draw agree throw politics reveal strong growth. Structure best full sort lot detail consider listen.
+INFO     BASE_ASSERTION:base.py:36 Check that 'estimatedTime' equals to 8 weeks
+INFO     SCHEMA_ASSERTION:schema.py:19 Validating JSON schema

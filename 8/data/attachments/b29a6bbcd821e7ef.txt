@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTION:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:63 Assert create exercise response
+INFO     BASE_ASSERTION:base.py:36 Check that 'title' equals to Property job building test bring.
+INFO     BASE_ASSERTION:base.py:36 Check that 'courseId' equals to 20633c5b-55e7-4eb2-9b5d-fad7bc82ba33
+INFO     BASE_ASSERTION:base.py:36 Check that 'maxScore' equals to 87
+INFO     BASE_ASSERTION:base.py:36 Check that 'minScore' equals to 28
+INFO     BASE_ASSERTION:base.py:36 Check that 'orderIndex' equals to 95
+INFO     BASE_ASSERTION:base.py:36 Check that 'description' equals to Customer most wide number win increase support coach. Oil leader hundred simple.
+Local current worry event small lay community. Read it alone magazine social.
+INFO     BASE_ASSERTION:base.py:36 Check that 'estimatedTime' equals to 2 weeks
+INFO     SCHEMA_ASSERTION:schema.py:19 Validating JSON schema

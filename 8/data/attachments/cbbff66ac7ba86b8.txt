@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9d587c69-3ed5-4bd6-92ce-f00bc87bb085' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDA0OjAyOjAwLjg1MDgyMiIsInVzZXJfaWQiOiIxZTAxZWU2OC1lOWFmLTRjZTYtOTdkZC1kNzE3ODI4MzM4N2IifQ.8E54FTHTEwHnEzo1m3mqAtXFYitU89mSCaRDgVVF_Xo' \
+  -H 'content-length: 304' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reach choose yet eye ground race.","maxScore":96,"minScore":3,"description":"My management money yet television under owner organization. Seat window certain. Still improve decide arrive decide himself party fish. Serve recent similar budget environmental kid area.","estimatedTime":"10 weeks"}'

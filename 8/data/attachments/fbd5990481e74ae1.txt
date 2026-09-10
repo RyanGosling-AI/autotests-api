@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTION:base.py:17 Check that response status code equals to 200
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/3110c87f-3be5-4775-90ee-8a6aa80ea4b9
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/3110c87f-3be5-4775-90ee-8a6aa80ea4b9
+INFO     BASE_ASSERTION:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:46 Assert get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:22 Assert exercise
+INFO     BASE_ASSERTION:base.py:36 Check that 'id' equals to 3110c87f-3be5-4775-90ee-8a6aa80ea4b9
+INFO     BASE_ASSERTION:base.py:36 Check that 'title' equals to Price task paper wait.
+INFO     BASE_ASSERTION:base.py:36 Check that 'courseId' equals to b5d95d86-9550-40ed-b836-c24b42b65ef6
+INFO     BASE_ASSERTION:base.py:36 Check that 'maxScore' equals to 68
+INFO     BASE_ASSERTION:base.py:36 Check that 'minScore' equals to 22
+INFO     BASE_ASSERTION:base.py:36 Check that 'orderIndex' equals to 9
+INFO     BASE_ASSERTION:base.py:36 Check that 'description' equals to Never third throughout not week. Direction impact the federal wind source hotel. Start training hot choice.
+Price catch career site once. Weight laugh simple resource join.
+INFO     BASE_ASSERTION:base.py:36 Check that 'estimatedTime' equals to 3 weeks
+INFO     SCHEMA_ASSERTION:schema.py:19 Validating JSON schema

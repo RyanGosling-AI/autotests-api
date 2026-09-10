@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDA0OjAyOjAyLjg0MzA0NSIsInVzZXJfaWQiOiI5NGI5MjNiMi0wZmJkLTQ1NWQtOWZhYi05NmM0ZGZiNGYyMDgifQ.cbpfY_EIVW0n53nWg2RIXcJit4dH8wNN4eAotQ_xKps' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"International politics hard fast life car.","maxScore":77,"minScore":18,"description":"Energy mention land experience between. Number including strategy.\nTreat industry friend in week line near. Need however huge education pick together book discuss.","estimatedTime":"6 weeks","previewFileId":"db2b146a-dc8b-40cc-ba1d-01d8c4d04ed2","createdByUserId":"94b923b2-0fbd-455d-9fab-96c4dfb4f208"}'

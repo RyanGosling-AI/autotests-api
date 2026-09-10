@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTION:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:87 Check create course response
+INFO     BASE_ASSERTION:base.py:36 Check that 'title' equals to Easy young area believe.
+INFO     BASE_ASSERTION:base.py:36 Check that 'maxScore' equals to 59
+INFO     BASE_ASSERTION:base.py:36 Check that 'minScore' equals to 9
+INFO     BASE_ASSERTION:base.py:36 Check that 'description' equals to Myself bill order suggest. Hope beat particular public thousand fly.
+Industry role country garden point including officer. Positive middle this no focus. Discuss account bed recent parent.
+INFO     BASE_ASSERTION:base.py:36 Check that 'estimatedTime' equals to 6 weeks
+INFO     BASE_ASSERTION:base.py:36 Check that 'previewFileId' equals to fb54a9d4-0745-4800-ae56-b36b53565c27
+INFO     BASE_ASSERTION:base.py:36 Check that 'createdByUserId' equals to 85da1f1d-e8ec-4354-b5ad-18ab22e89859
+INFO     SCHEMA_ASSERTION:schema.py:19 Validating JSON schema

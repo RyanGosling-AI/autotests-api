@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDA0OjAyOjAxLjQ1NTE0NSIsInVzZXJfaWQiOiJiMGEzZmIxMC0zNGRhLTQ1ZWEtYmE4NS04MjdhNzhhYzFiNGEifQ.BWR2WRGRHFOviE1GkfxEjLg7l2CV3IhPF6KKPqUjJ_A' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Happy speak himself shake trip away week.","maxScore":56,"minScore":13,"description":"Environmental mouth happy light point customer building. Between plan operation from training. Attention commercial radio create example floor.","estimatedTime":"4 weeks","previewFileId":"f0d7f47d-b86b-46d6-935d-f5d49390f736","createdByUserId":"b0a3fb10-34da-45ea-ba85-827a78ac1b4a"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEwVDA0OjAyOjA1Ljk3NTQwOSIsInVzZXJfaWQiOiJhZmVkZDc1MC1hNDYyLTQ2MGUtOTM0ZC0zY2I1N2YzMDQ2ZDkifQ.2WMoGtg9Q4L_qdfFqFjuEEqqL9GHzH5cytTsmFUJ7O0' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Truth writer civil allow fall goal.","maxScore":75,"minScore":25,"description":"Idea national would hope item. Peace apply understand.\nWeight condition if live beautiful box north. Personal worry which picture. Building sport condition TV until.","estimatedTime":"7 weeks","previewFileId":"ce176393-fab0-4d4b-8d17-1a726fbdd9af","createdByUserId":"afedd750-a462-460e-934d-3cb57f3046d9"}'
